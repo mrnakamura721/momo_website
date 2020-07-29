@@ -1,5 +1,85 @@
 <div class="container">
   <div class="row justify-content-center">
-    <h1>Middleman Boilerplate</h1>
+    <h1>Momotaro Nakamura</h1>
+  </div>
+  <div class="row justify-content-center">
+    <h3>Fullstack Developer</h3>
+  </div>
+  <div class="logo">
+
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <%= image_tag src="momologo.jpg", class: "momologo" %>
+      </div>
+      <div class="flip-card-back">
+      </div>
+    </div>
+  </div>
+  <div class="icons">
+    <ul class="icons d-flex justify-content-center">
+      <li>
+        <% link_to "https://github.com/mrnakamura721" do %>
+           <i class="fab fa-github"></i>
+      <% end %>
+      </li>
+      <li>
+        <% link_to "https://www.linkedin.com/in/momotaro-nakamura/" do %>
+           <i class="fab fa-linkedin-in"></i>
+      <% end %>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="about_me">
+      <h3>About me</h3>
+      <p>Former premedical student at Boston University College of Arts and Sciences. I'm a full-stack developer passionate about building ideas and solving real-world problems. I am interested in management roles, having experience with training and working in teams.</p>
+    </div>
+    <div class="stacks">
+      <h3>Stacks</h3>
+      <p>My stack includes Ruby on Rails, React.js, HTML5, CSS, and SQL Databases. Check me out on GitHub or contact me below for a full CV.</p>
+    </div>
+    <div class="web_applications">
+      <h3>Web Applications</h3>
+      <h4>Snapcarte</h4>
+      <p>An app for restaurants to quickly jumpstart their online takeout service. Allows users to upload a menu photo that will be automatically converted into a digital menu using Google Cloud Vision OCR</p>
+      <div class="device device-macbook">
+        <div class="device-frame">
+          <%= image_tag "snapcarte.png", alt: "acornr", class: "device-content"%>
+        </div>
+        <div class="device-stripe"></div>
+        <div class="device-header"></div>
+        <div class="device-sensors"></div>
+        <div class="device-btns"></div>
+        <div class="device-power"></div>
+      </div>
+      <br>
+      <h4>Acornr</h4>
+      <p>A service that helps you find a place to temporarily store your belongings, concept similar to an AirBnB for storage</p>
+      <div class="device device-macbook">
+        <div class="device-frame">
+          <%= image_tag "acornr.png", alt: "acornr", class: "device-content"%>
+        </div>
+        <div class="device-stripe"></div>
+        <div class="device-header"></div>
+        <div class="device-sensors"></div>
+        <div class="device-btns"></div>
+        <div class="device-power"></div>
+      </div>
+      <br>
+      <h4>Mister Cocktail</h4>
+      <p>A web app for listing and creating cocktail recipes with photo uploading capabilities using Cloudinary</p>
+      <div class="device device-macbook">
+        <div class="device-frame">
+          <%= image_tag "cocktail.png", alt: "acornr", class: "device-content"%>
+        </div>
+        <div class="device-stripe"></div>
+        <div class="device-header"></div>
+        <div class="device-sensors"></div>
+        <div class="device-btns"></div>
+        <div class="device-power"></div>
+      </div>
+    </div>
   </div>
 </div>
