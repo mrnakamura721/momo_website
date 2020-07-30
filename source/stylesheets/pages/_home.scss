@@ -54,4 +54,21 @@ li {
   }
 }
 
+.project-links {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #bafcfc 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #222;
+  font-size: 24px;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+    &:hover {
+    background-position: -99.99% 0;
+    text-decoration: none;
+    color: #222;
+  }
+}
+
+
 // Specific CSS for your home-page
